@@ -8,7 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10">
         <owl:versionIRI rdf:resource="http://www.movies.com/ontologies/movies.owl"/>
-        <rdfs:comment>This is a Movie-genre Ontology tha tdescribes various genre</rdfs:comment>
+        <rdfs:comment>This Movie Ontology focuses on describing key components of the movies such as genre, release year,  cast, director and so on and creating a semantic relationship among the components.</rdfs:comment>
     </owl:Ontology>
     
 
@@ -24,19 +24,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Directedby -->
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Released_in -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Directedby">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Director"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Releasedin -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Releasedin">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Released_in">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Year"/>
@@ -44,9 +34,27 @@
     
 
 
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#ingenre -->
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#directed -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#ingenre">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#directed">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_Directed_by"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#has_rating -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#has_rating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Rating"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#in_genre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#in_genre">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Genre"/>
@@ -54,12 +62,31 @@
     
 
 
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#isstaring -->
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_Directed_by -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#isstaring">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_Directed_by">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Director"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_staring -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_staring">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#starred_in"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#starred_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#starred_in">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -87,6 +114,66 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Black_Panther">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Released_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#2018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#has_rating"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#7.9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#in_genre"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Action"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#in_genre"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Adventure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#in_genre"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Sci-Fi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_Directed_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Ryan_Coogler"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_staring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Chadwick_Boseman"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_staring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Danai_Gurira"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_staring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Michael_B._Jordan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_staring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Lupita_Nyong&apos;o"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -99,10 +186,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Danai_Gurira -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Danai_Gurira">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Joe_Russo -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Joe_Russo">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Director"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Michael_B._Jordan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Michael_B._Jordan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars"/>
     </owl:Class>
     
 
@@ -174,6 +277,14 @@
     <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Romance -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Romance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Sci-Fi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Sci-Fi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Genre"/>
     </owl:Class>
     
@@ -259,6 +370,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Creed:_The_Rocky_Legacy">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Lupita_Nyong&apos;o -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Lupita_Nyong&apos;o">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars"/>
     </owl:Class>
 </rdf:RDF>
 
