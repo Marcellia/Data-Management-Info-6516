@@ -132,18 +132,6 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Released_in"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#2018"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#has_rating"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#7.9"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#in_genre"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Action"/>
             </owl:Restriction>
@@ -162,34 +150,47 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Released_in"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#2018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#has_rating"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#7.9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_Directed_by"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Ryan_Coogler"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Ryan_Coogler"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_staring"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Chadwick_Boseman"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Chadwick_Boseman"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_staring"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Danai_Gurira"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Danai_Gurira"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_staring"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Michael_B._Jordan"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Michael_B._Jordan"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#is_staring"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Lupita_Nyong&apos;o"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Lupita_Nyong&apos;o"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Captain_America:_Civil_War"/>
     </owl:Class>
     
 
