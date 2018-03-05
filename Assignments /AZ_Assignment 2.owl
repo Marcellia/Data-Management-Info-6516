@@ -16,6 +16,23 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Object Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -106,6 +123,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Action">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Genre"/>
+        <Definition xml:lang="en">Action film is a genre in which the protagonist or protagonists end up in a series of challenges that typically include violence, extended fighting, physical feats, and frantic chases. (https://en.wikipedia.org/wiki/Action_film)</Definition>
     </owl:Class>
     
 
@@ -114,6 +132,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Adventure">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Genre"/>
+        <Definition xml:lang="en">Adventure films are a genre of film that typically use their action scenes to display and explore exotic locations in an energetic way. (https://en.wikipedia.org/wiki/Adventure_film)</Definition>
     </owl:Class>
     
 
@@ -122,6 +141,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Anthony_Russo">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Director"/>
+        <Definition xml:lang="en">Anthony Russo is an American film and television director. (https://en.wikipedia.org/wiki/Russo_brothers)</Definition>
     </owl:Class>
     
 
@@ -191,6 +211,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Captain_America:_Civil_War"/>
+        <Definition xml:lang="en">Black Panther is a 2018 American superhero film based on the Marvel Comics character of the same name.  (https://en.wikipedia.org/wiki/Black_Panther_(film))</Definition>
     </owl:Class>
     
 
@@ -199,6 +220,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Chadwick_Boseman">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars"/>
+        <Definition xml:lang="en">Chadwick Aaron Boseman (born November 29, 1977) is an American actor. (https://en.wikipedia.org/wiki/Chadwick_Boseman)</Definition>
     </owl:Class>
     
 
@@ -207,6 +229,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Chris_Evans">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars"/>
+        <Definition xml:lang="en">Christopher Robert Evans (born June 13, 1981)[1] is an American actor and filmmaker. (https://en.wikipedia.org/wiki/Chris_Evans_(actor))</Definition>
     </owl:Class>
     
 
@@ -215,6 +238,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Comedy">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Genre"/>
+        <Definition xml:lang="en">Comedy is a genre of film in which the main emphasis is on humor. (https://en.wikipedia.org/wiki/Comedy_film)</Definition>
     </owl:Class>
     
 
@@ -223,6 +247,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Danai_Gurira">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars"/>
+        <Definition xml:lang="en">Danai Jekesai Gurira (born February 14, 1978) is a Zimbabwean-American actress and playwright (https://en.wikipedia.org/wiki/Danai_Gurira)</Definition>
     </owl:Class>
     
 
@@ -231,6 +256,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Drama">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Genre"/>
+        <Definition xml:lang="en">Drama Films are serious presentations or stories with settings or life situations that portray realistic characters in conflict with either themselves, others, or forces of nature. A dramatic film shows us human beings at their best, their worst, and everything in-between ( www.filmsite.org/dramafilms.html )</Definition>
     </owl:Class>
     
 
@@ -239,6 +265,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Horror">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Genre"/>
+        <Definition xml:lang="en">A horror film is a movie that seeks to elicit a physiological reaction, such as an elevated heartbeat, through the use of fear and shocking one&apos;s audiences. ( https://en.wikipedia.org/wiki/Horror_film )</Definition>
     </owl:Class>
     
 
@@ -247,6 +274,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Joe_Russo">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Director"/>
+        <Definition xml:lang="en">Joseph V. &quot;Joe&quot; Russo is an American film and television directors 
+(https://en.wikipedia.org/wiki/Russo_brothers)</Definition>
     </owl:Class>
     
 
@@ -255,43 +284,56 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Michael_B._Jordan">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars"/>
+        <Definition xml:lang="en">Michael Bakari Jordan (born February 9, 1987) is an American actor.  (https://en.wikipedia.org/wiki/Michael_B._Jordan)</Definition>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie">
+        <Definition>A story or event recorded by a camera as a set of moving images and shown in a theater or on television; a motion picture. (www.dictionary.com)</Definition>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Director -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Director"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Director">
+        <Definition xml:lang="en">Movie Director is a person who controls the making of a film and supervises the actors and technical crew. (Google Dictionary)</Definition>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Genre -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Genre"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Genre">
+        <Definition xml:lang="en">Genre is most popularly known as a category of movies based on some set of stylistic criteria (https://en.wikipedia.org/wiki/Genre)</Definition>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Rating -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Rating"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Rating">
+        <Definition xml:lang="en">The movie rating is out of 10 points. Rating of a movie is based on IMBD Rating system, where each IMBD registered user can cast a rating ( from 1-10) on every released title.</Definition>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars">
+        <Definition xml:lang="en">A movie star is an actor or actress who is famous for playing leading role in a movies. ( Google Dictionary)</Definition>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Year -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Year"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Year">
+        <Definition xml:lang="en">Movie year, is the year in which the movie is first released.</Definition>
+    </owl:Class>
     
 
 
@@ -299,6 +341,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Robert_Downey_Jr.">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars"/>
+        <Definition xml:lang="en">Robert John Downey Jr. (born April 4, 1965)[2] is an American actor and singer. (https://en.wikipedia.org/wiki/Robert_Downey_Jr.)</Definition>
     </owl:Class>
     
 
@@ -307,6 +350,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Romance">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Genre"/>
+        <Definition xml:lang="en">A romance is understood to be &quot;love stories&quot;, emotion-driven stories that are primarily focused on the relationship between the main characters of the story (https://en.wikipedia.org/wiki/List_of_genres#Romance)</Definition>
     </owl:Class>
     
 
@@ -315,6 +359,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Ryan_Coogler">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Director"/>
+        <Definition xml:lang="en">Ryan Kyle Coogler  is an American film director and screenwriter (https://en.wikipedia.org/wiki/Ryan_Coogler)</Definition>
     </owl:Class>
     
 
@@ -323,6 +368,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Scarlett_Johansson">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars"/>
+        <Definition xml:lang="en">Scarlett Ingrid Johansson is an American actress and singer. (https://en.wikipedia.org/wiki/Scarlett_Johansson)</Definition>
     </owl:Class>
     
 
@@ -331,6 +377,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Sci-Fi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Genre"/>
+        <Definition xml:lang="en">Science fiction (often shortened to SF or sci-fi) is a genre of speculative fiction, typically dealing with imaginative concepts such as advanced science and technology, spaceflight, time travel, and extraterrestrial life. (https://en.wikipedia.org/wiki/Science_fiction)</Definition>
     </owl:Class>
     
 
@@ -339,6 +386,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Sports">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Genre"/>
+        <Definition xml:lang="en">A Sport genre Film revolves around a sport setting, event, or an athlete. (https://thescriptlab.com/screenplay/genre/991-sports/)</Definition>
     </owl:Class>
     
 
@@ -347,6 +395,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Sylvester_Stallone">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars"/>
+        <Definition xml:lang="en">Michael Sylvester Ѕly Gardenzio Stallone is an American actor and filmmaker. (https://en.wikipedia.org/wiki/Sylvester_Stallone)</Definition>
     </owl:Class>
     
 
@@ -355,6 +404,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Tessa_Thompson">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars"/>
+        <Definition xml:lang="en">Tessa Lynne Thompson (born October 3, 1983) is an American actress. (https://en.wikipedia.org/wiki/Tessa_Thompson)</Definition>
     </owl:Class>
     
 
@@ -363,6 +413,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#2015">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Year"/>
+        <Definition xml:lang="en">The year in which the movie is released in.</Definition>
     </owl:Class>
     
 
@@ -371,6 +422,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#2016">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Year"/>
+        <Definition xml:lang="en">The year in which the movie is released in.</Definition>
     </owl:Class>
     
 
@@ -379,6 +431,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#2018">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Year"/>
+        <Definition xml:lang="en">The year in which the movie is released in.</Definition>
     </owl:Class>
     
 
@@ -387,6 +440,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#7.6">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Rating"/>
+        <Definition xml:lang="en">The movie that received 7.6 out of 10 points.</Definition>
     </owl:Class>
     
 
@@ -395,6 +449,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#7.8">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Rating"/>
+        <Definition xml:lang="en">The movie that received 7.8 out of 10 points.</Definition>
     </owl:Class>
     
 
@@ -403,6 +458,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#7.9">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Rating"/>
+        <Definition xml:lang="en">The movie that received 7.9 out of 10 points.</Definition>
     </owl:Class>
     
 
@@ -477,6 +533,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Scarlett_Johansson"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition xml:lang="en">Captain America: Civil War is a 2016 American superhero film based on the Marvel Comics character Captain America, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. (https://en.wikipedia.org/wiki/Captain_America:_Civil_War)</Definition>
     </owl:Class>
     
 
@@ -539,6 +596,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Tessa_Thompson"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <Definition xml:lang="en">Creed is a 2015 American sports drama film (https://en.wikipedia.org/wiki/Creed_(film))</Definition>
     </owl:Class>
     
 
@@ -547,6 +605,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Lupita_Nyong&apos;o">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/untitled-ontology-10#Movie_Stars"/>
+        <Definition xml:lang="en">Lupita Amondi Nyong&apos;o (born March 1, 1983) is a Kenyan-Mexican actress. 
+(https://en.wikipedia.org/wiki/Lupita_Nyong%27o)</Definition>
     </owl:Class>
 </rdf:RDF>
 
