@@ -42,69 +42,66 @@
     
 
 
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Released_in -->
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000036 -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Released_in">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Year"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000036">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIES_0000001"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000018"/>
+        <rdfs:label>has_rating</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#directed -->
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000037 -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#directed">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_Directed_by"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000037">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIES_0000001"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000009"/>
+        <rdfs:label>in_genre</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000038 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000038">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIES_0000001"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000005"/>
+        <rdfs:label>is_Directed_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000039 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000039">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000041"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIES_0000001"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000022"/>
+        <rdfs:label>is_staring</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000040 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000040">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIES_0000001"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000032"/>
+        <rdfs:label>Released_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000041 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000041">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#has_rating -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#has_rating">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Rating"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#in_genre -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#in_genre">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Genre"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_Directed_by -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_Directed_by">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Director"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_staring -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_staring">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#starred_in"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Stars"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#starred_in -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#starred_in">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label>starred_in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -120,494 +117,529 @@
     
 
 
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Action -->
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIES_0000001 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Action">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Genre"/>
-        <Movie-ontology-10:Definition xml:lang="en">Action film is a genre in which the protagonist or protagonists end up in a series of challenges that typically include violence, extended fighting, physical feats, and frantic chases. (https://en.wikipedia.org/wiki/Action_film)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Adventure -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Adventure">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Genre"/>
-        <Movie-ontology-10:Definition xml:lang="en">Adventure films are a genre of film that typically use their action scenes to display and explore exotic locations in an energetic way. (https://en.wikipedia.org/wiki/Adventure_film)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Anthony_Russo -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Anthony_Russo">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Director"/>
-        <Movie-ontology-10:Definition xml:lang="en">Anthony Russo is an American film and television director. (https://en.wikipedia.org/wiki/Russo_brothers)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Black_Panther -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Black_Panther">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#in_genre"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Action"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#in_genre"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Adventure"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#in_genre"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Sci-Fi"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Released_in"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#2018"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#has_rating"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#7.9"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_Directed_by"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Ryan_Coogler"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_staring"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Chadwick_Boseman"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_staring"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Danai_Gurira"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_staring"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Michael_B._Jordan"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_staring"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Lupita_Nyong&apos;o"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Captain_America:_Civil_War"/>
-        <Movie-ontology-10:Definition xml:lang="en">Black Panther is a 2018 American superhero film based on the Marvel Comics character of the same name.  (https://en.wikipedia.org/wiki/Black_Panther_(film))</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Chadwick_Boseman -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Chadwick_Boseman">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Stars"/>
-        <Movie-ontology-10:Definition xml:lang="en">Chadwick Aaron Boseman (born November 29, 1977) is an American actor. (https://en.wikipedia.org/wiki/Chadwick_Boseman)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Chris_Evans -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Chris_Evans">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Stars"/>
-        <Movie-ontology-10:Definition xml:lang="en">Christopher Robert Evans (born June 13, 1981)[1] is an American actor and filmmaker. (https://en.wikipedia.org/wiki/Chris_Evans_(actor))</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Comedy -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Comedy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Genre"/>
-        <Movie-ontology-10:Definition xml:lang="en">Comedy is a genre of film in which the main emphasis is on humor. (https://en.wikipedia.org/wiki/Comedy_film)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Danai_Gurira -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Danai_Gurira">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Stars"/>
-        <Movie-ontology-10:Definition xml:lang="en">Danai Jekesai Gurira (born February 14, 1978) is a Zimbabwean-American actress and playwright (https://en.wikipedia.org/wiki/Danai_Gurira)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Drama -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Drama">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Genre"/>
-        <Movie-ontology-10:Definition xml:lang="en">Drama Films are serious presentations or stories with settings or life situations that portray realistic characters in conflict with either themselves, others, or forces of nature. A dramatic film shows us human beings at their best, their worst, and everything in-between ( www.filmsite.org/dramafilms.html )</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Horror -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Horror">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Genre"/>
-        <Movie-ontology-10:Definition xml:lang="en">A horror film is a movie that seeks to elicit a physiological reaction, such as an elevated heartbeat, through the use of fear and shocking one&apos;s audiences. ( https://en.wikipedia.org/wiki/Horror_film )</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Joe_Russo -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Joe_Russo">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Director"/>
-        <Movie-ontology-10:Definition xml:lang="en">Joseph V. &quot;Joe&quot; Russo is an American film and television directors 
-(https://en.wikipedia.org/wiki/Russo_brothers)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Michael_B._Jordan -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Michael_B._Jordan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Stars"/>
-        <Movie-ontology-10:Definition xml:lang="en">Michael Bakari Jordan (born February 9, 1987) is an American actor.  (https://en.wikipedia.org/wiki/Michael_B._Jordan)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie">
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIES_0000001">
         <Movie-ontology-10:Definition>A story or event recorded by a camera as a set of moving images and shown in a theater or on television; a motion picture. (www.dictionary.com)</Movie-ontology-10:Definition>
+        <rdfs:label>Movie</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Director -->
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000002 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Director">
-        <Movie-ontology-10:Definition xml:lang="en">Movie Director is a person who controls the making of a film and supervises the actors and technical crew. (Google Dictionary)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Genre -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Genre">
-        <Movie-ontology-10:Definition xml:lang="en">Genre is most popularly known as a category of movies based on some set of stylistic criteria (https://en.wikipedia.org/wiki/Genre)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Rating -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Rating">
-        <Movie-ontology-10:Definition xml:lang="en">The movie rating is out of 10 points. Rating of a movie is based on IMBD Rating system, where each IMBD registered user can cast a rating ( from 1-10) on every released title.</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Stars -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Stars">
-        <Movie-ontology-10:Definition xml:lang="en">A movie star is an actor or actress who is famous for playing leading role in a movies. ( Google Dictionary)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Year -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Year">
-        <Movie-ontology-10:Definition xml:lang="en">Movie year, is the year in which the movie is first released.</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Robert_Downey_Jr. -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Robert_Downey_Jr.">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Stars"/>
-        <Movie-ontology-10:Definition xml:lang="en">Robert John Downey Jr. (born April 4, 1965)[2] is an American actor and singer. (https://en.wikipedia.org/wiki/Robert_Downey_Jr.)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Romance -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Romance">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Genre"/>
-        <Movie-ontology-10:Definition xml:lang="en">A romance is understood to be &quot;love stories&quot;, emotion-driven stories that are primarily focused on the relationship between the main characters of the story (https://en.wikipedia.org/wiki/List_of_genres#Romance)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Ryan_Coogler -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Ryan_Coogler">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Director"/>
-        <Movie-ontology-10:Definition xml:lang="en">Ryan Kyle Coogler  is an American film director and screenwriter (https://en.wikipedia.org/wiki/Ryan_Coogler)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Scarlett_Johansson -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Scarlett_Johansson">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Stars"/>
-        <Movie-ontology-10:Definition xml:lang="en">Scarlett Ingrid Johansson is an American actress and singer. (https://en.wikipedia.org/wiki/Scarlett_Johansson)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Sci-Fi -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Sci-Fi">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Genre"/>
-        <Movie-ontology-10:Definition xml:lang="en">Science fiction (often shortened to SF or sci-fi) is a genre of speculative fiction, typically dealing with imaginative concepts such as advanced science and technology, spaceflight, time travel, and extraterrestrial life. (https://en.wikipedia.org/wiki/Science_fiction)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Sports -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Sports">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Genre"/>
-        <Movie-ontology-10:Definition xml:lang="en">A Sport genre Film revolves around a sport setting, event, or an athlete. (https://thescriptlab.com/screenplay/genre/991-sports/)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Sylvester_Stallone -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Sylvester_Stallone">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Stars"/>
-        <Movie-ontology-10:Definition xml:lang="en">Michael Sylvester Ѕly Gardenzio Stallone is an American actor and filmmaker. (https://en.wikipedia.org/wiki/Sylvester_Stallone)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Tessa_Thompson -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Tessa_Thompson">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Stars"/>
-        <Movie-ontology-10:Definition xml:lang="en">Tessa Lynne Thompson (born October 3, 1983) is an American actress. (https://en.wikipedia.org/wiki/Tessa_Thompson)</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#2015 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#2015">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Year"/>
-        <Movie-ontology-10:Definition xml:lang="en">The year in which the movie is released in.</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#2016 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#2016">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Year"/>
-        <Movie-ontology-10:Definition xml:lang="en">The year in which the movie is released in.</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#2018 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#2018">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Year"/>
-        <Movie-ontology-10:Definition xml:lang="en">The year in which the movie is released in.</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#7.6 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#7.6">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Rating"/>
-        <Movie-ontology-10:Definition xml:lang="en">The movie that received 7.6 out of 10 points.</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#7.8 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#7.8">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Rating"/>
-        <Movie-ontology-10:Definition xml:lang="en">The movie that received 7.8 out of 10 points.</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#7.9 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#7.9">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Rating"/>
-        <Movie-ontology-10:Definition xml:lang="en">The movie that received 7.9 out of 10 points.</Movie-ontology-10:Definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Captain_America:_Civil_War -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Captain_America:_Civil_War">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000002">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIES_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Released_in"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#2016"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000037"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#has_rating"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#7.8"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000037"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#in_genre"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Action"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000037"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#in_genre"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Adventure"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000036"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#in_genre"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Sci-Fi"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000038"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_Directed_by"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Anthony_Russo"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000039"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_Directed_by"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Joe_Russo"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000039"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_staring"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Chadwick_Boseman"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000039"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_staring"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Chris_Evans"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000039"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_staring"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Robert_Downey_Jr."/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000040"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000003"/>
+        <Movie-ontology-10:Definition xml:lang="en">Black Panther is a 2018 American superhero film based on the Marvel Comics character of the same name.  (https://en.wikipedia.org/wiki/Black_Panther_(film))</Movie-ontology-10:Definition>
+        <rdfs:label>Black Panther</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000003 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000003">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIES_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000036"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_staring"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Scarlett_Johansson"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000037"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000037"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000037"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000038"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000038"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000039"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000039"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000039"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000039"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Movie-ontology-10:Definition xml:lang="en">Captain America: Civil War is a 2016 American superhero film based on the Marvel Comics character Captain America, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. (https://en.wikipedia.org/wiki/Captain_America:_Civil_War)</Movie-ontology-10:Definition>
+        <rdfs:label>Captain_America:_Civil_War</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Creed:_The_Rocky_Legacy -->
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000004 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Creed:_The_Rocky_Legacy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000004">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIES_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#has_rating"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#7.6"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000036"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#in_genre"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Drama"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000037"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#in_genre"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Sports"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000037"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_Directed_by"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Drama"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000038"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_Directed_by"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Ryan_Coogler"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000038"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_Directed_by"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Sports"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000038"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_staring"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Michael_B._Jordan"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000039"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_staring"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Sylvester_Stallone"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000039"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#is_staring"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Tessa_Thompson"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000039"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <Movie-ontology-10:Definition xml:lang="en">Creed is a 2015 American sports drama film (https://en.wikipedia.org/wiki/Creed_(film))</Movie-ontology-10:Definition>
+        <rdfs:label>Creed:_The_Rocky_Legacy</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Lupita_Nyong&apos;o -->
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000005 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Lupita_Nyong&apos;o">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#Movie_Stars"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000005">
+        <Movie-ontology-10:Definition xml:lang="en">Movie Director is a person who controls the making of a film and supervises the actors and technical crew. (Google Dictionary)</Movie-ontology-10:Definition>
+        <rdfs:label>Movie_Director</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000006 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000006">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000005"/>
+        <Movie-ontology-10:Definition xml:lang="en">Anthony Russo is an American film and television director. (https://en.wikipedia.org/wiki/Russo_brothers)</Movie-ontology-10:Definition>
+        <rdfs:label>Anthony_Russo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000008 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000008">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000005"/>
+        <Movie-ontology-10:Definition xml:lang="en">Ryan Kyle Coogler  is an American film director and screenwriter (https://en.wikipedia.org/wiki/Ryan_Coogler)</Movie-ontology-10:Definition>
+        <rdfs:label>Ryan_Coogler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000009 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000009">
+        <Movie-ontology-10:Definition xml:lang="en">Genre is most popularly known as a category of movies based on some set of stylistic criteria (https://en.wikipedia.org/wiki/Genre)</Movie-ontology-10:Definition>
+        <rdfs:label>Movie_Genre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000010 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000010">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000009"/>
+        <Movie-ontology-10:Definition xml:lang="en">Action film is a genre in which the protagonist or protagonists end up in a series of challenges that typically include violence, extended fighting, physical feats, and frantic chases. (https://en.wikipedia.org/wiki/Action_film)</Movie-ontology-10:Definition>
+        <rdfs:label>Action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000011 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000011">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000009"/>
+        <Movie-ontology-10:Definition xml:lang="en">Adventure films are a genre of film that typically use their action scenes to display and explore exotic locations in an energetic way. (https://en.wikipedia.org/wiki/Adventure_film)</Movie-ontology-10:Definition>
+        <rdfs:label>Adventure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000012 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000012">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000009"/>
+        <Movie-ontology-10:Definition xml:lang="en">Comedy is a genre of film in which the main emphasis is on humor. (https://en.wikipedia.org/wiki/Comedy_film)</Movie-ontology-10:Definition>
+        <rdfs:label>Comedy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000013 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000013">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000009"/>
+        <Movie-ontology-10:Definition xml:lang="en">Drama Films are serious presentations or stories with settings or life situations that portray realistic characters in conflict with either themselves, others, or forces of nature. A dramatic film shows us human beings at their best, their worst, and everything in-between ( www.filmsite.org/dramafilms.html )</Movie-ontology-10:Definition>
+        <rdfs:label>Drama</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000014 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000014">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000009"/>
+        <Movie-ontology-10:Definition xml:lang="en">A horror film is a movie that seeks to elicit a physiological reaction, such as an elevated heartbeat, through the use of fear and shocking one&apos;s audiences. ( https://en.wikipedia.org/wiki/Horror_film )</Movie-ontology-10:Definition>
+        <rdfs:label>Horror</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000015 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000015">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000009"/>
+        <Movie-ontology-10:Definition xml:lang="en">A romance is understood to be &quot;love stories&quot;, emotion-driven stories that are primarily focused on the relationship between the main characters of the story (https://en.wikipedia.org/wiki/List_of_genres#Romance)</Movie-ontology-10:Definition>
+        <rdfs:label>Romance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000016 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000016">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000009"/>
+        <Movie-ontology-10:Definition xml:lang="en">Science fiction (often shortened to SF or sci-fi) is a genre of speculative fiction, typically dealing with imaginative concepts such as advanced science and technology, spaceflight, time travel, and extraterrestrial life. (https://en.wikipedia.org/wiki/Science_fiction)</Movie-ontology-10:Definition>
+        <rdfs:label>Sci-Fi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000017 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000017">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000009"/>
+        <Movie-ontology-10:Definition xml:lang="en">A Sport genre Film revolves around a sport setting, event, or an athlete. (https://thescriptlab.com/screenplay/genre/991-sports/)</Movie-ontology-10:Definition>
+        <rdfs:label>Sports</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000018 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000018">
+        <Movie-ontology-10:Definition xml:lang="en">The movie rating is out of 10 points. Rating of a movie is based on IMBD Rating system, where each IMBD registered user can cast a rating ( from 1-10) on every released title.</Movie-ontology-10:Definition>
+        <rdfs:label>Movie_Rating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000019 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000019">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000018"/>
+        <Movie-ontology-10:Definition xml:lang="en">The movie that received 7.9 out of 10 points.</Movie-ontology-10:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000020 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000020">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000018"/>
+        <Movie-ontology-10:Definition xml:lang="en">The movie that received 7.6 out of 10 points.</Movie-ontology-10:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000021 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000021">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000018"/>
+        <Movie-ontology-10:Definition xml:lang="en">The movie that received 7.8 out of 10 points.</Movie-ontology-10:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000022 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000022">
+        <Movie-ontology-10:Definition xml:lang="en">A movie star is an actor or actress who is famous for playing leading role in a movies. ( Google Dictionary)</Movie-ontology-10:Definition>
+        <rdfs:label>Movie_Stars</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000023 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000023">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000022"/>
+        <Movie-ontology-10:Definition xml:lang="en">Tessa Lynne Thompson (born October 3, 1983) is an American actress. (https://en.wikipedia.org/wiki/Tessa_Thompson)</Movie-ontology-10:Definition>
+        <rdfs:label>Tessa_Thompson</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000024 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000024">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000022"/>
+        <Movie-ontology-10:Definition xml:lang="en">Chadwick Aaron Boseman (born November 29, 1977) is an American actor. (https://en.wikipedia.org/wiki/Chadwick_Boseman)</Movie-ontology-10:Definition>
+        <rdfs:label>Chadwick_Boseman</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000025 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000025">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000022"/>
+        <Movie-ontology-10:Definition xml:lang="en">Christopher Robert Evans (born June 13, 1981)[1] is an American actor and filmmaker. (https://en.wikipedia.org/wiki/Chris_Evans_(actor))</Movie-ontology-10:Definition>
+        <rdfs:label>Chris_Evans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000026 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000026">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000022"/>
+        <Movie-ontology-10:Definition xml:lang="en">Danai Jekesai Gurira (born February 14, 1978) is a Zimbabwean-American actress and playwright (https://en.wikipedia.org/wiki/Danai_Gurira)</Movie-ontology-10:Definition>
+        <rdfs:label>Danai_Gurira</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000027 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000027">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000022"/>
+        <Movie-ontology-10:Definition xml:lang="en">Michael Bakari Jordan (born February 9, 1987) is an American actor.  (https://en.wikipedia.org/wiki/Michael_B._Jordan)</Movie-ontology-10:Definition>
+        <rdfs:label>Michael_B._Jordan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000028 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000028">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000022"/>
         <Movie-ontology-10:Definition xml:lang="en">Lupita Amondi Nyong&apos;o (born March 1, 1983) is a Kenyan-Mexican actress. 
 (https://en.wikipedia.org/wiki/Lupita_Nyong%27o)</Movie-ontology-10:Definition>
+        <rdfs:label>Lupita_Nyong&apos;o</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000029 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000029">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000022"/>
+        <Movie-ontology-10:Definition xml:lang="en">Robert John Downey Jr. (born April 4, 1965)[2] is an American actor and singer. (https://en.wikipedia.org/wiki/Robert_Downey_Jr.)</Movie-ontology-10:Definition>
+        <rdfs:label>Robert_Downey_Jr.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000030 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000030">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000022"/>
+        <Movie-ontology-10:Definition xml:lang="en">Scarlett Ingrid Johansson is an American actress and singer. (https://en.wikipedia.org/wiki/Scarlett_Johansson)</Movie-ontology-10:Definition>
+        <rdfs:label>Scarlett_Johansson</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000031 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000031">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000022"/>
+        <Movie-ontology-10:Definition xml:lang="en">Michael Sylvester Ѕly Gardenzio Stallone is an American actor and filmmaker. (https://en.wikipedia.org/wiki/Sylvester_Stallone)</Movie-ontology-10:Definition>
+        <rdfs:label>Sylvester_Stallone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000032 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000032">
+        <Movie-ontology-10:Definition xml:lang="en">Movie year, is the year in which the movie is first released.</Movie-ontology-10:Definition>
+        <rdfs:label>Movie_Year</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000033 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000033">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000032"/>
+        <Movie-ontology-10:Definition xml:lang="en">The year in which the movie is released in.</Movie-ontology-10:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000034 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000034">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000032"/>
+        <Movie-ontology-10:Definition xml:lang="en">The year in which the movie is released in.</Movie-ontology-10:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000035 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000035">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000032"/>
+        <Movie-ontology-10:Definition xml:lang="en">The year in which the movie is released in.</Movie-ontology-10:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_000007 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_000007">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000005"/>
+        <Movie-ontology-10:Definition xml:lang="en">Joseph V. &quot;Joe&quot; Russo is an American film and television directors 
+(https://en.wikipedia.org/wiki/Russo_brothers)</Movie-ontology-10:Definition>
+        <rdfs:label>Joe_Russo</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
