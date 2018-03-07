@@ -190,7 +190,6 @@
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/anki/ontologies/2018/1/Movie-ontology-10#MOVIE_0000003"/>
         <Movie-ontology-10:Definition xml:lang="en">Black Panther is a 2018 American superhero film based on the Marvel Comics character of the same name.  (https://en.wikipedia.org/wiki/Black_Panther_(film))</Movie-ontology-10:Definition>
         <rdfs:label>Black Panther</rdfs:label>
     </owl:Class>
